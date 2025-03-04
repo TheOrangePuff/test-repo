@@ -21,7 +21,7 @@ jobs:
           touch test-dir/file.txt
 
       - name: Test
-        uses: aligent/actions/.github/actions/s3-deploy@main
+        uses: aligent/actions/.github/actions/s3-deploy@feat/s3-deploy
         with:
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
           LOCAL_PATH: "./test-dir"
