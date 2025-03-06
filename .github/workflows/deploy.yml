@@ -9,8 +9,4 @@ on:
 
 jobs:
   test-s3-deploy:
-    name: Test S3 Deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Test
-        uses: aligent/actions/.github/workflows/static-hosting-deployment.yml@feat/s3-deploy
+    uses: aligent/actions/.github/workflows/static-hosting-deployment.yml@feat/s3-deploy
