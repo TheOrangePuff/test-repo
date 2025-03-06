@@ -9,5 +9,8 @@
     "build": "echo build",
     "test": "echo test",
     "lint": "echo lint"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3"
   }
 }
