@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/TheOrangePuff/test-repo",
   "author": "Daniel van der Ploeg <danielvdp56@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "echo build"
+  }
 }
