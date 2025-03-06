@@ -9,4 +9,4 @@ on:
 
 jobs:
   test-s3-deploy:
-    uses: aligent/actions/.github/workflows/static-hosting-deployment.yml@feat/s3-deploy
+    uses: aligent/actions/.github/workflows/node-pr.yml@feat/s3-deploy
