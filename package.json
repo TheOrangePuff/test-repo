@@ -6,9 +6,7 @@
   "author": "Daniel van der Ploeg <danielvdp56@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "echo build",
-    "test": "echo test",
-    "lint": "echo lint"
+    "format": "prettier . -c"
   },
   "dependencies": {
     "prettier": "^3.5.3"
