@@ -11,4 +11,4 @@ jobs:
   test-s3-deploy:
     uses: aligent/actions/.github/workflows/node-pr.yml@feat/s3-deploy
     with:
-      skip-format: true
+      skip-format: false

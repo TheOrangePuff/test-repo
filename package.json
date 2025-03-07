@@ -6,7 +6,7 @@
   "author": "Daniel van der Ploeg <danielvdp56@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier . -c"
+    "prettier": "prettier . -c"
   },
   "dependencies": {
     "prettier": "^3.5.3"
